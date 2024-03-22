@@ -15,7 +15,7 @@ class Player:
         self.hp -= dmg
 
     def feature(self):
-        pass
+        print(123)
 
 
 player = Player()
