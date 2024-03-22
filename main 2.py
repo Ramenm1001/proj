@@ -14,6 +14,9 @@ class Player:
     def take_damage(self, dmg):
         self.hp -= dmg
 
+    def feature(self):
+        pass
+
 
 player = Player()
 player.take_damage(5)
