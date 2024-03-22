@@ -15,5 +15,8 @@ class Player:
         self.hp -= dmg
 
 
+def func():
+    pass
+
 player = Player()
 player.take_damage(5)
